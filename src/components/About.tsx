@@ -11,7 +11,7 @@ export default function About() {
         <div className="bg-navy-800/50 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-navy-700 shadow-xl" data-aos="fade-up"
           data-aos-duration="1000" >
           <p className="text-lg text-gray-300 leading-relaxed mb-6">
-            Passionnée par le commerce et le marketing digital, je suis spécialisée dans la création et la mise en œuvre de stratégies innovantes pour transformer les prospects en clients fidèles.
+            Passionnée par le commerce et le marketing , je suis spécialisée dans la création et la mise en œuvre de stratégies innovantes pour transformer les prospects en clients fidèles.
           </p>
           <p className="text-lg text-gray-300 leading-relaxed mb-6">
             Avec une formation solide en commerce, marketing et communication, je combine créativité et analyse pour développer des campagnes digitales impactantes qui génèrent des résultats mesurables.

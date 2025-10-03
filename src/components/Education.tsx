@@ -6,13 +6,13 @@ const education = [
     institution: "Institut de Formation Technique (IFT)",
     period: "2023 - 2024",
     description:
-      "Formation approfondie en stratégies commerciales, marketing digital et communication d'entreprise",
+      "Formation pratique en commerce, marketing digital et communication d’entreprise, axée sur la gestion de projets et la relation client.",
   },
   {
     degree: "Baccalauréat A2",
     institution: "Enseignement secondaire",
     period: "2021",
-    description: "Spécialisation en sciences humaines et langues",
+    description: "Acquisition des bases en économie, gestion et mathématiques appliquées, préparant aux études supérieures en commerce et management.",
   },
 ];
 
