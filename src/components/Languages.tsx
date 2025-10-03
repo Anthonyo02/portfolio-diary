@@ -1,21 +1,25 @@
 const languages = [
-  { name: 'Malagasy', level: 100, description: 'Langue maternelle' },
-  { name: 'Français', level: 80, description: 'Courant' },
-  { name: 'Anglais', level: 40, description: 'Débutant' },
+  { name: "Malagasy", level: 100, description: "Langue maternelle" },
+  { name: "Français", level: 80, description: "Courant" },
+  { name: "Anglais", level: 40, description: "Débutant" },
 ];
 
 const technicalSkills = [
-  { name: 'Marketing Digital', level: 85 },
-  { name: 'Communication', level: 90 },
-  { name: 'Bureautique', level: 80 },
-  { name: 'Réseaux Sociaux', level: 85 },
+  { name: "Marketing Digital", level: 85 },
+  { name: "Communication", level: 90 },
+  { name: "Bureautique", level: 80 },
+  { name: "Réseaux Sociaux", level: 85 },
 ];
 
 export default function Languages() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div
+          className="text-center mb-16"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <h2 className="text-4xl font-bold text-navy-900 mb-4">
             Langues & Compétences
           </h2>
@@ -23,14 +27,22 @@ export default function Languages() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
-          <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-lg">
+          <div
+            className="bg-white p-8 rounded-2xl border border-gray-200 shadow-lg"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <h3 className="text-2xl font-bold text-navy-900 mb-8">Langues</h3>
             <div className="space-y-6">
               {languages.map((lang, index) => (
                 <div key={index}>
                   <div className="flex justify-between mb-2">
-                    <span className="font-semibold text-navy-900">{lang.name}</span>
-                    <span className="text-sky-500 font-medium">{lang.description}</span>
+                    <span className="font-semibold text-navy-900">
+                      {lang.name}
+                    </span>
+                    <span className="text-sky-500 font-medium">
+                      {lang.description}
+                    </span>
                   </div>
                   <div className="h-3 bg-gray-200 rounded-full overflow-hidden">
                     <div
@@ -43,14 +55,24 @@ export default function Languages() {
             </div>
           </div>
 
-          <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-lg">
-            <h3 className="text-2xl font-bold text-navy-900 mb-8">Compétences Techniques</h3>
+          <div
+            className="bg-white p-8 rounded-2xl border border-gray-200 shadow-lg"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <h3 className="text-2xl font-bold text-navy-900 mb-8">
+              Compétences Techniques
+            </h3>
             <div className="space-y-6">
               {technicalSkills.map((skill, index) => (
                 <div key={index}>
                   <div className="flex justify-between mb-2">
-                    <span className="font-semibold text-navy-900">{skill.name}</span>
-                    <span className="text-sky-500 font-medium">{skill.level}%</span>
+                    <span className="font-semibold text-navy-900">
+                      {skill.name}
+                    </span>
+                    <span className="text-sky-500 font-medium">
+                      {skill.level}%
+                    </span>
                   </div>
                   <div className="h-3 bg-gray-200 rounded-full overflow-hidden">
                     <div

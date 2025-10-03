@@ -20,7 +20,11 @@ export default function Education() {
   return (
     <section id="formation" className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div
+          className="text-center mb-16"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <h2 className="text-4xl font-bold text-navy-900 mb-4">Formation</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-sky-400 to-blue-500 mx-auto"></div>
         </div>
@@ -30,6 +34,8 @@ export default function Education() {
             <div
               key={index}
               className="group bg-white p-8 rounded-2xl border border-gray-200 hover:border-sky-400 transition-all duration-300 hover:shadow-xl hover:shadow-sky-500/10"
+              data-aos="fade-up"
+              data-aos-duration="1000"
             >
               {/* En-tête (icône + titre + période) */}
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">

@@ -21,7 +21,11 @@ export default function Experience() {
       className="py-20 bg-gradient-to-br from-navy-900 to-navy-800 text-white"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div
+          className="text-center mb-16"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <h2 className="text-4xl font-bold mb-4">
             Expériences Professionnelles
           </h2>
@@ -32,6 +36,8 @@ export default function Experience() {
           {experiences.map((exp, index) => (
             <div
               key={index}
+              data-aos="fade-up"
+              data-aos-duration="1000"
               className="bg-navy-800/50 backdrop-blur-sm p-8 rounded-2xl border border-navy-700 shadow-xl hover:border-sky-400 transition-all duration-300"
             >
               {/* En-tête (icône + titre + période) alignés en haut */}

@@ -30,7 +30,11 @@ export default function Contact() {
         className="py-20 bg-gradient-to-br from-navy-900 via-navy-800 to-sky-900 text-white"
       >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div
+            className="text-center mb-16"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <h2 className="text-4xl font-bold mb-4">Me Contacter</h2>
             <div className="w-20 h-1 bg-gradient-to-r from-sky-400 to-blue-500 mx-auto mb-4"></div>
             <p className="text-gray-300 text-lg">
@@ -43,6 +47,8 @@ export default function Contact() {
               <a
                 key={index}
                 href={item.href}
+                data-aos="fade-up"
+                data-aos-duration="1000"
                 target={item.label === "LinkedIn" ? "_blank" : undefined}
                 rel={
                   item.label === "LinkedIn" ? "noopener noreferrer" : undefined

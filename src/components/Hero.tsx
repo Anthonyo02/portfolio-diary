@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-8 animate-fade-in flex flex-col items-center">
           <img
-            src="/me.png"
+            src="/diary.png"
             alt="Diaritiana Paola Rafanomezantsoa"
             className="w-44 h-44 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-sky-400 shadow-2xl shadow-sky-500/30 mt-20 mb-6"
           />
